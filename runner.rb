@@ -59,7 +59,7 @@ files.each_with_index do |element, index|
   end
 
   puts "Dir_Name: #{$dir_name}"
-  binding.pry
+  # binding.pry
   puts "Moving File #{index}: #{element}"
   puts "From: #{Dir.pwd}"
   puts "To: #{Dir.pwd}/#{$dir_name}"
